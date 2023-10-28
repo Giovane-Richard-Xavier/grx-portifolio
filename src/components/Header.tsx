@@ -1,5 +1,5 @@
 import React from "react";
 
 export const Header = () => {
-  return <div>Header</div>;
+  return <div className="absolute z-30 w-full">Header</div>;
 };

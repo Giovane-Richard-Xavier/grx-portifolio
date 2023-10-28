@@ -12,7 +12,7 @@ export const Avatar = () => {
         // width={737}
         // height={678}
         alt=""
-        className="translate-z-0 w-[450px] h-[480px]"
+        className="translate-z-0 w-[430px] h-[480px]"
       />
     </div>
   );

@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="bg-primary/60 h-full">
       <div className="w-full h-full gb-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:pt-20 xl:text-left  container mx-auto">
+        <div className="text-center flex flex-col justify-center xl:pt-32 xl:text-left  container mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
@@ -46,9 +46,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
-        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0">
-          image
-        </div>
+        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
 
         <div>
           <ParticlesContainer />
@@ -59,7 +57,7 @@ export default function Home() {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[450px] max-h-[480px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
+          className="w-full h-full max-w-[430px] max-h-[480px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
         >
           <Avatar />
         </motion.div>

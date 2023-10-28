@@ -33,12 +33,11 @@ module.exports = {
         site: 'url("/images/site-bg.svg")',
       },
       animation: {
-        "spin-slow": "spin 6s linear infinite",
+        "spin-slow": "spin 10s linear infinite",
       },
       fontFamily: {
         poppins: [`var(--font-poppins)`, "sans-serif"],
         sora: [`var(--font-sora)`, "sans-serif"],
-        // sora: ["Sora", "sans-serif"],
       },
     },
   },

@@ -25,12 +25,11 @@ export default function Home() {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-5"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-5 xl:text-lg"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            ratione fugit consequatur cupiditate est libero natus culpa quas
-            maxime numquam! Consectetur cum voluptatibus explicabo libero dolor,
-            illum autem nesciunt voluptas.
+            Atuando como um desenvolvedor Full-Stack, minha missão é criar
+            soluções completas, desde o back-end até a experiência do usuário,
+            proporcionando resultados que transcendem o código.
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
